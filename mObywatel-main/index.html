@@ -5,6 +5,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-title" content="mObywatel">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>mDowód</title>
     <link rel="stylesheet" href="../fonts.googleapis.com/css78ac.css?family=Roboto:400,500&amp;display=swap">
     <style>
@@ -193,6 +195,10 @@
             margin-bottom: 15px;
             display: block;
         }
+
+        #pesel{
+            text-decoration: none;
+        }
         .validity {
             position: absolute;
             bottom: 0;
@@ -360,6 +366,7 @@
             height: 14px; /* Adjusted size for smaller arrow icons */
             object-fit: contain; /* Ensures icons are not stretched */
         }
+
     </style>
 </head>
 <body>
@@ -411,7 +418,7 @@
                     <p><span class="label">SŁABOŃ</span> <span class="description">Nazwisko</span></p>
                     <p><span class="label">POLSKIE</span> <span class="description">Obywatelstwo</span></p>
                     <p><span class="label">21.06.2006</span> <span class="description">Data urodzenia</span></p>
-                    <p><span class="label">06262168616</span> <span class="description">Numer PESEL</span></p>
+                    <p><span class="label" id="pesel">06262168616</span> <span class="description">Numer PESEL</span></p>
                 </div>
             </div>
             <div class="validity">
